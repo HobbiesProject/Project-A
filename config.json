@@ -1,3 +1,19 @@
 {
-	"gogo" : {  "base_url" : "https://gogoanime3.net/"  }
+	"gogo" : { "base_url" : "https://gogoanime3.net", "ajax_url" : "https://ajax.gogo-load.com/ajax" }, 
+	"zoro" : { "base_url" : "https://aniwatch.to" },
+	"nineanime" : { "base_url" : "https://aniwave.to/" },
+	"animepahe" : { "base_url" : "" },
+	
+	"rapidcloud" : {
+		
+		"key" : {
+			"url" : "https://zoro.anify.tv/key/6",
+			"type" : "json" ,
+			"supp" : "key" 
+		}, 
+				
+		"embed_extension" : "embed-2/ajax/e-1/getSources?id=",
+		"id_regex" : "(.+)embed-2\\/e-1\\/([^?#&\\/.]+)",
+		
+	}
 }
